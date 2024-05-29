@@ -12,8 +12,8 @@ function MyRGBPanel() {
     const updateB = (v) => setB(v);
 
     const rgbCss = {
-        border: "1px solid blue",
-        borderRadius: "20px",
+        border: "1px solid gray",
+        borderRadius: "25px",
         width: "300px",
         display: "flex",
         flexDirection: "column",
@@ -27,11 +27,12 @@ function MyRGBPanel() {
       <div
         style={rgbCss}
       >
-        <h2 style={{color: "red"}}>
+        <h2 style={{color: "black"}}>
           目前色彩
         </h2>
         <div
           style={{
+            borderRadius: "20px",
             width: "250px",
             height: "100px",
             backgroundColor: `rgb(${r}, ${g}, ${b})`,
