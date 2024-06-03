@@ -11,16 +11,20 @@ function App() {
         <p>React  Element</p>
       </div>
       <div className="big-box">
-      <div className="box">
-        <h1>MySlider</h1>
-        <MySlider />
-      </div>
+        <div className="box">
+          <h1>MySlider</h1>
+          <MySlider />
+        </div>
 
-      <div className="box">
-        <h1>MyRGBPanel</h1>
-        <MyRGBPanel />
-      </div>
+        <div className="box">
+          <h1>MyRGBPanel</h1>
+          <MyRGBPanel />
+        </div>
 
+        <div className="box">
+          <h1>MyCalculator</h1>
+          <MyCalculator /> 
+        </div>
       </div>
     </div>
   );
