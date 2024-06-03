@@ -5,7 +5,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: antiquewhite;
 }
-
+.big-box{
+  text-align: center;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* flex-wrap: wrap; 避免超出螢幕寬度 */
+  width: 95%;
+  max-width: 1440px; /* 設定最大寬度 */
+  margin: 0 auto;
+}
 #root {
   display: flex;
   flex-direction: column;
@@ -14,7 +24,11 @@ body {
   min-height: 100vh;
   width: 100%;
 }
-
+.title{
+  font-size: 3rem;
+  margin-bottom: 100px;
+  font-weight: bolder;
+}
 .App {
   text-align: center;
   background-color: antiquewhite;
@@ -25,6 +39,7 @@ body {
   width: 95%;
   max-width: 1440px; /* 設定最大寬度 */
   margin: 0 auto;
+  flex-direction: column;
 }
 
 @media (max-width: 1024px) {
