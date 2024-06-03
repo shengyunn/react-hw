@@ -12,7 +12,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   /* flex-wrap: wrap; 避免超出螢幕寬度 */
-  width: 95%;
+  width: 99%;
   max-width: 1440px; /* 設定最大寬度 */
   margin: 0 auto;
 }
@@ -36,7 +36,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   /* flex-wrap: wrap; 避免超出螢幕寬度 */
-  width: 95%;
+  width: 100%;
   max-width: 1440px; /* 設定最大寬度 */
   margin: 0 auto;
   flex-direction: column;
